@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Now write a number");
         System.out.println("You wrote the number: "+s.nextInt());
         System.out.println("Please write some text again");
-        System.out.println("You wrote: "+s.nextLine()); //Goes wong because after the int, the user typed Return
+        System.out.println("You wrote: "+s.nextLine()); //Goes wong because after the int, the user typed Return (= a new line)
 
         //The fix:
 
@@ -26,6 +26,6 @@ public class Main {
         s.nextLine(); //add an extra nexLine()
         System.out.println("You wrote: "+s.nextLine());
 
-        // write your code here
+
     }
 }
